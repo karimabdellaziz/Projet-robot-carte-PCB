@@ -1112,6 +1112,7 @@
     )
   )
 
+
   (junction (at 234.95 46.99) (diameter 0) (color 0 0 0 0)
     (uuid 1a0b237b-1909-417c-8b86-fe22f9023d1b)
   )
@@ -1493,6 +1494,14 @@
   (text "ST-LINK" (at 184.15 99.06 0)
     (effects (font (size 2.5 2.5)) (justify left bottom))
     (uuid c9f06816-b469-4a7f-b618-fc5ad223d5f8)
+  )
+  (text "current 2mA to 20mA \nR=1k => I=3.3mA" (at 109.474 150.876 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d439c988-db91-4b68-949c-752bae24e43d)
+  )
+  (text "C203 C202 from 5 to 20 pF , ceramic " (at 131.826 86.614 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e852316f-1325-43a7-8323-0bed6b9cbb62)
   )
 
   (global_label "STLINK_NRST" (shape input) (at 243.84 133.35 0) (fields_autoplaced)
