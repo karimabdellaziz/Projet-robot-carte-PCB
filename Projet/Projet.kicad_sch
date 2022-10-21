@@ -786,9 +786,6 @@
     (path "/2c94c3f8-789e-4e80-9d07-56c02613c1ca/26373468-c2f2-4816-8c08-b6cb29d3a48a"
       (reference "#PWR0502") (unit 1) (value "GND") (footprint "")
     )
-    (path "/2c94c3f8-789e-4e80-9d07-56c02613c1ca/82f3be04-812b-42da-acec-31eb28106fa2"
-      (reference "#PWR0503") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/2c94c3f8-789e-4e80-9d07-56c02613c1ca/81316064-61f7-421a-aabb-e5dd0f1bd59f"
       (reference "#PWR0504") (unit 1) (value "GND") (footprint "")
     )
@@ -806,6 +803,18 @@
     )
     (path "/8d33a703-2b8e-427e-8095-65d2ab5747b7/8384a6f5-7405-4c9c-a91a-b3b3c319b659"
       (reference "#PWR0602") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/2c94c3f8-789e-4e80-9d07-56c02613c1ca/083a9d25-0d13-4b30-8c95-868292b699cc"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/2c94c3f8-789e-4e80-9d07-56c02613c1ca/7cf1f366-7515-4db7-a0ab-45a8106e3bf9"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2c94c3f8-789e-4e80-9d07-56c02613c1ca/bf677e73-4a4a-42b3-81a5-3745c86aebdd"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2c94c3f8-789e-4e80-9d07-56c02613c1ca/fc5c2fc3-5dff-4e77-b30c-7a3e9697edf5"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/8d33a703-2b8e-427e-8095-65d2ab5747b7/5d25ff3b-4ad8-4123-a826-570748c8cc1a"
       (reference "A601") (unit 1) (value "Adafruit_Feather_HUZZAH32_ESP32") (footprint "Module:Adafruit_Feather")
@@ -894,6 +903,9 @@
     (path "/95906111-ff39-49a7-813e-2b4d8e06af1c"
       (reference "H104") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
+    (path "/2c94c3f8-789e-4e80-9d07-56c02613c1ca/25599e80-7302-4310-b815-098a411187e8"
+      (reference "IC?") (unit 1) (value "AZ1117CH2-5.0TRG1") (footprint "AZ1117CH2:SOT230P700X180-4N")
+    )
     (path "/06f3313b-a492-43e2-a8af-7405596f1a0f/774af97b-64ee-46fb-a170-2a055012e293"
       (reference "J201") (unit 1) (value "Conn_02x07_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical_SMD")
     )
@@ -978,6 +990,9 @@
     (path "/8d33a703-2b8e-427e-8095-65d2ab5747b7/96aa032a-8964-4271-a2f3-00894aaef163"
       (reference "JP602") (unit 1) (value "JP3") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
     )
+    (path "/2c94c3f8-789e-4e80-9d07-56c02613c1ca/912cd69b-f431-4464-965d-0e35dd0ae709"
+      (reference "PS?") (unit 1) (value "MIC5317-3.3YM5-TR") (footprint "MIC5317:SOT95P280X145-5N")
+    )
     (path "/06f3313b-a492-43e2-a8af-7405596f1a0f/e3da781d-8211-48f4-949a-8116fea6b074"
       (reference "R201") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
@@ -1025,12 +1040,6 @@
     )
     (path "/610bad4f-ec44-471b-839f-83184226b9cb/2793a927-7949-40d0-b6a1-42b7cd741850"
       (reference "U302") (unit 1) (value "ZXBM5210-S") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
-    )
-    (path "/2c94c3f8-789e-4e80-9d07-56c02613c1ca/7a8ae81b-3b2d-4b58-883f-cd8cd5d2a6d2"
-      (reference "U501") (unit 1) (value "AZ1117-5.0") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
-    )
-    (path "/2c94c3f8-789e-4e80-9d07-56c02613c1ca/210fc57a-e55c-423b-bb30-9d647727fd53"
-      (reference "U502") (unit 1) (value "MIC5317-3.3") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/06f3313b-a492-43e2-a8af-7405596f1a0f/0703d8ad-a824-456b-ac92-37a7ee8ee2b1"
       (reference "Y201") (unit 1) (value "16 MHz") (footprint "Crystal:Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm")

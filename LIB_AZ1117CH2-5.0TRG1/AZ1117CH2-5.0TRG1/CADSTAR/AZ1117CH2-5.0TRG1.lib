@@ -1,0 +1,20 @@
+.AZ1117CH2-5.0TRG1 :1 ;LDO Voltage Regulators LDO BJT HiCurr
+SOT230P700X180-4N
+*STM IC
+*NGS
+*PLB 1="INPUT" 2="ADJ/GND_1" 3="OUTPUT" 4="ADJ/GND_2"
+*MXP 4
+*DFN AZ1117CH2-5.0TRG1
+~!Manufacturer_Name (Diodes Inc.)
+~!Manufacturer_Part_Number (AZ1117CH2-5.0TRG1)
+~!Mouser Part Number (621-AZ1117CH2-5.0TRG)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1117CH2-5.0TRG1?qs=5V6w%252Be2aIqb578qtLdqPjw%3D%3D)
+~!Arrow Part Number (AZ1117CH2-5.0TRG1)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/az1117ch2-5.0trg1/diodes-incorporated)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (https://www.arrow.com/en/products/az1117ch2-5.0trg1/diodes-incorporated)
+~!Height (1.8mm)
+~!3D_Model (AZ1117CH2-5.0TRG1)
+AZ1117CH2-5.0TRG1
+1.1!U 2.1!U 3.1!U 4.1!U 

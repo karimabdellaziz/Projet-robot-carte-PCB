@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AZ1117CH2-5.0TRG1
+D LDO Voltage Regulators LDO BJT HiCurr
+K
+F https://www.arrow.com/en/products/az1117ch2-5.0trg1/diodes-incorporated
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AZ1117CH2_5.0TRG1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Inc.", "AZ1117CH2-5.0TRG1" (!) = "", "SOT230P700X180-4N", "SOT223 (3-Pin)", "621-AZ1117CH2-5.0TRG", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1117CH2-5.0TRG1?qs=5V6w%252Be2aIqb578qtLdqPjw%3D%3D", "AZ1117CH2-5.0TRG1", "https://www.arrow.com/en/products/az1117ch2-5.0trg1/diodes-incorporated", "", "", "LDO Voltage Regulators LDO BJT HiCurr", "https://www.arrow.com/en/products/az1117ch2-5.0trg1/diodes-incorporated", "1.8 mm"
+END_PART
+
+END.
