@@ -375,6 +375,15 @@
     (uuid 77a3341d-856d-48e1-aa20-3a31eb34f1ff)
   )
 
+  (label "ESP_TX_JP" (at 86.868 83.82 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 444b799a-8280-4166-b774-99682271557c)
+  )
+  (label "ESP_RX_JP" (at 86.106 81.28 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a06663bc-68c2-47d5-ac2d-5a1218ab4d60)
+  )
+
   (hierarchical_label "ESP_EN" (shape input) (at 129.54 55.88 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 165cbabe-f3d3-4f18-bd90-9092cd43baa8)
