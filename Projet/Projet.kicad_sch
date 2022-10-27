@@ -102,10 +102,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 020cb84a-142c-40cc-91c2-8859b897806b)
   )
-  (wire (pts (xy 172.72 96.52) (xy 197.612 96.52))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 13876afe-4ff4-4b61-aca0-e83e9869950a)
-  )
   (wire (pts (xy 168.91 62.992) (xy 168.91 80.772))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 181a651d-5859-4782-b885-a45a20d3f57f)
@@ -249,6 +245,10 @@
   (wire (pts (xy 144.272 62.992) (xy 144.272 80.772))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ddcf48d6-19ce-443a-9b2c-9062fc0c77ce)
+  )
+  (wire (pts (xy 161.036 62.992) (xy 161.036 80.772))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid e1005244-796a-45d7-8d6f-4a6c56a09cc5)
   )
   (wire (pts (xy 168.402 115.062) (xy 168.402 124.968))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -405,10 +405,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 6f4b5c96-8616-4190-b89f-6129a07f99b5)
     )
-    (pin "ESP_EN" input (at 172.72 96.52 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 67055d91-471a-4eb3-9cb1-749a0415a20f)
-    )
     (pin "ESP_TX" input (at 172.72 98.552 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 89f31ad3-58c1-4b0e-9862-b67a1f3265e3)
@@ -468,6 +464,10 @@
     (pin "DRV_1_REV" input (at 159.004 115.062 270)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid dae60f94-0e22-4fc5-8ba3-3c609817cf30)
+    )
+    (pin "CLR_LED" input (at 161.036 80.772 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 58b73f38-71a0-4acf-b7f2-46b971df280a)
     )
   )
 
@@ -561,6 +561,10 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 01bbebfe-0e05-4550-a855-2f0e4587f8d8)
     )
+    (pin "CLR_LED" input (at 161.036 62.992 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 064a44df-5b1b-4e47-bb7c-7edf81f5f373)
+    )
   )
 
   (sheet (at 121.158 124.968) (size 53.34 34.29) (fields_autoplaced)
@@ -628,10 +632,6 @@
     (pin "ESP_RX" input (at 197.612 100.584 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid cf7487b5-5005-487b-b80a-0cb2b2f4e60d)
-    )
-    (pin "ESP_EN" input (at 197.612 96.52 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid b84e7515-a3a2-4556-b04c-fd0fcf699989)
     )
   )
 
@@ -701,6 +701,12 @@
     )
     (path "/610bad4f-ec44-471b-839f-83184226b9cb/da71c006-ed9b-4cf0-910e-6394a9b97f3c"
       (reference "#PWR0119") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/3d8f4a10-27ab-4ddd-990e-44e4c6dda865/658a42fc-19a2-405b-9a9f-d6c2a2478e0c"
+      (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8d33a703-2b8e-427e-8095-65d2ab5747b7/1b29d593-e37b-4f3c-9363-35da00313aa8"
+      (reference "#PWR0121") (unit 1) (value "+5V") (footprint "")
     )
     (path "/06f3313b-a492-43e2-a8af-7405596f1a0f/adabba01-9730-4cb4-b455-9129a75d487c"
       (reference "#PWR0202") (unit 1) (value "+3.3V") (footprint "")
@@ -813,15 +819,6 @@
     (path "/8d33a703-2b8e-427e-8095-65d2ab5747b7/7924cd07-43aa-4385-b18c-ef7c97efc704"
       (reference "#PWR0601") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8d33a703-2b8e-427e-8095-65d2ab5747b7/8384a6f5-7405-4c9c-a91a-b3b3c319b659"
-      (reference "#PWR0602") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/3d8f4a10-27ab-4ddd-990e-44e4c6dda865/658a42fc-19a2-405b-9a9f-d6c2a2478e0c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8d33a703-2b8e-427e-8095-65d2ab5747b7/5d25ff3b-4ad8-4123-a826-570748c8cc1a"
-      (reference "A601") (unit 1) (value "Adafruit_Feather_HUZZAH32_ESP32") (footprint "Module:Adafruit_Feather")
-    )
     (path "/06f3313b-a492-43e2-a8af-7405596f1a0f/535f1469-4f55-42b2-bd54-38f3f70df135"
       (reference "C201") (unit 1) (value "0.1 uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
@@ -833,9 +830,6 @@
     )
     (path "/06f3313b-a492-43e2-a8af-7405596f1a0f/3af1a1b7-7ab2-490c-8e0e-61dac8962926"
       (reference "C204") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-    )
-    (path "/06f3313b-a492-43e2-a8af-7405596f1a0f/4626973c-6f90-4b53-8f8b-3ba50c57a130"
-      (reference "C205") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/06f3313b-a492-43e2-a8af-7405596f1a0f/cac8f4b3-cc1f-4d3a-9e3f-a3b12097508f"
       (reference "C206") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -945,6 +939,9 @@
     (path "/2c94c3f8-789e-4e80-9d07-56c02613c1ca/80d56cc5-9454-496c-b702-e15f663b3678"
       (reference "J502") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
+    (path "/8d33a703-2b8e-427e-8095-65d2ab5747b7/cd2a4dcb-ca2e-4f98-b107-60eff9c60d25"
+      (reference "J601") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
+    )
     (path "/06f3313b-a492-43e2-a8af-7405596f1a0f/e2eeb28a-eb1f-4b71-918d-861490a40821"
       (reference "JP203") (unit 1) (value "JP3") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
     )
@@ -962,12 +959,6 @@
     )
     (path "/06f3313b-a492-43e2-a8af-7405596f1a0f/c9b57e63-0dc3-4a63-89e0-efe6deff5f52"
       (reference "JP210") (unit 1) (value "JP ") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
-    )
-    (path "/610bad4f-ec44-471b-839f-83184226b9cb/d2b6b3bb-6e4e-48df-acfb-8b57eb675035"
-      (reference "JP301") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
-    )
-    (path "/610bad4f-ec44-471b-839f-83184226b9cb/4543daa9-94a8-415f-ad74-f8a1f78f4183"
-      (reference "JP302") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
     )
     (path "/610bad4f-ec44-471b-839f-83184226b9cb/09cf2781-1054-47e4-b525-44afed258370"
       (reference "JP303") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
