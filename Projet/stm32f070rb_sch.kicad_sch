@@ -1112,7 +1112,6 @@
     )
   )
 
-
   (junction (at 234.95 46.99) (diameter 0) (color 0 0 0 0)
     (uuid 1a0b237b-1909-417c-8b86-fe22f9023d1b)
   )
@@ -1156,7 +1155,7 @@
   (no_connect (at 231.14 130.81) (uuid 26702c99-d430-45cd-8a41-5a2e172dc497))
   (no_connect (at 243.84 130.81) (uuid 2dcef08c-75fa-4427-bf82-4fe4eb3d4c37))
   (no_connect (at 58.42 83.82) (uuid 3630563d-3630-47e5-bf30-c93b213cccbd))
-  (no_connect (at 58.42 86.36) (uuid 3630563d-3630-47e5-bf30-c93b213cccbd))
+  (no_connect (at 58.42 86.36) (uuid 3630563d-3630-47e5-bf30-c93b213cccbe))
   (no_connect (at 243.84 120.65) (uuid 3b49463b-aabc-4e21-b771-fae0c26a7b63))
   (no_connect (at 243.84 128.27) (uuid 5d3e04e0-47b3-489c-ac4b-1b8d3ad67b02))
   (no_connect (at 58.42 50.8) (uuid 95c5e68e-b139-4fc6-aba8-6fa1bcb71fce))
@@ -1178,7 +1177,6 @@
   (no_connect (at 58.42 66.04) (uuid edd2dee3-5e52-4dbc-a3c5-e5bb1f9efc39))
   (no_connect (at 58.42 63.5) (uuid edd2dee3-5e52-4dbc-a3c5-e5bb1f9efc3a))
   (no_connect (at 58.42 53.34) (uuid edd2dee3-5e52-4dbc-a3c5-e5bb1f9efc3c))
-  (no_connect (at 58.42 91.44) (uuid eed183a0-ad8b-45d2-9dee-b70adba61cae))
 
   (wire (pts (xy 32.512 96.52) (xy 34.29 96.52))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1626,6 +1624,10 @@
     )
   )
 
+  (hierarchical_label "CLR_LED" (shape input) (at 58.42 91.44 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 02b64942-70a7-43d2-98fb-0f745a4abe8c)
+  )
   (hierarchical_label "CLR_OUT" (shape input) (at 109.22 78.74 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0b214a8b-ce29-4e43-a1e3-60269bd73d80)

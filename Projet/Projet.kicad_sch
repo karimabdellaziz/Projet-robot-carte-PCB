@@ -816,6 +816,9 @@
     (path "/8d33a703-2b8e-427e-8095-65d2ab5747b7/8384a6f5-7405-4c9c-a91a-b3b3c319b659"
       (reference "#PWR0602") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/3d8f4a10-27ab-4ddd-990e-44e4c6dda865/658a42fc-19a2-405b-9a9f-d6c2a2478e0c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/8d33a703-2b8e-427e-8095-65d2ab5747b7/5d25ff3b-4ad8-4123-a826-570748c8cc1a"
       (reference "A601") (unit 1) (value "Adafruit_Feather_HUZZAH32_ESP32") (footprint "Module:Adafruit_Feather")
     )
