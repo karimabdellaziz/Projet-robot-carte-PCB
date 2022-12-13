@@ -1,0 +1,10 @@
+01:55:53 **** Incremental Build of configuration Debug for project VL50L0X ****
+make -j8 all 
+arm-none-eabi-size   VL50L0X.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31540	    120	   2224	  33884	   845c	VL50L0X.elf
+Finished building: default.size.stdout
+ 
+
+01:55:54 Build Finished. 0 errors, 0 warnings. (took 297ms)
+

@@ -1,0 +1,21 @@
+00:33:59 **** Incremental Build of configuration Debug for project VL50L0X ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Karim ABDELLAZIZ/Documents/3A ensea/Projet robot/VL50L0X/Drivers/VL50L0X_DRV" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:112:7: warning: variable 'msgBuffer' set but not used [-Wunused-but-set-variable]
+  112 |  char msgBuffer[52];
+      |       ^~~~~~~~~
+arm-none-eabi-gcc -o "VL50L0X.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\Karim ABDELLAZIZ\Documents\3A ensea\Projet robot\VL50L0X\STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="VL50L0X.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: VL50L0X.elf
+ 
+arm-none-eabi-size   VL50L0X.elf 
+arm-none-eabi-objdump -h -S  VL50L0X.elf  > "VL50L0X.list"
+   text	   data	    bss	    dec	    hex	filename
+  30024	    120	   2000	  32144	   7d90	VL50L0X.elf
+Finished building: default.size.stdout
+ 
+Finished building: VL50L0X.list
+ 
+
+00:34:00 Build Finished. 0 errors, 1 warnings. (took 984ms)
+
